@@ -16,7 +16,7 @@ public class EmployeeController
 	@GetMapping("/")
 	public String getHomePage()
 	{
-		return "index";
+		return "index.html";
 	}
 	@GetMapping("/register")
 	public String getHomePage(@ModelAttribute("emp")Employee emp)
