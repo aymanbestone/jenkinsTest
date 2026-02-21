@@ -21,7 +21,7 @@ public class EmployeeController
 	@GetMapping("/register")
 	public String getHomePage(@ModelAttribute("emp")Employee emp)
 	{
-		return "register";
+		return "register!";
 	}
 //	public String register(Map<String, Object>map, HttpServletRequest req)
 //	{
